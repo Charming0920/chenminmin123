@@ -1,0 +1,360 @@
+
+html, body {position: relative;height: 100%;}
+body {
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	/*富裕空间管理*/
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	
+	/*项目在主轴上的对齐方式*/
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	/*多根轴线对齐方式*/
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    
+    -webkit-align-items: center;
+    align-items: center;		
+} 
+
+
+/*=======================slide_1====================*/
+.slide_1 .swiper-button-next{
+	display: block;
+	width: 22%;
+	height: 14%;
+	border-radius: 50%;
+	position: absolute;
+	top: 75%;
+	left: 39%;
+	background-image: none;
+}
+.phonecall_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*=======================slide_2====================*/
+.slide_2{
+	background: black;
+}
+.slide2_div2 img{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	display: block;
+	z-index: 2;	
+}
+.slide2_div3 img{
+	position: absolute;
+	top: 38%;
+	right: 10%;
+	width: 37%;
+	height: 10%;
+	display: block;
+	z-index: 2;	
+}
+.slide2_div4 img{
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	display: block;
+	z-index: 2;	
+}
+.slide2_div5 img{
+	position: absolute;
+	top: 22%;
+	width: 100%;
+	height: 10%;
+	display: block;
+	z-index: 2;	
+}
+
+/*=======================slide_3====================*/
+.slide_3{
+	background: black;
+}
+.slide3_div1 img{
+	position: absolute;
+	bottom: -15%;
+	left: 0;
+	width: 150%;
+	height: 60%;
+	display: block;
+	z-index: 2;	
+}
+.slide3_div2 img{
+	position: absolute;
+	top: 17%;
+	left: 5%;
+	width: 50%;
+	height: 15%;
+	display: block;
+	z-index: 2;
+}
+.slide3_div3 img{
+	position: absolute;
+	top: 33%;
+	left: 30%;
+	width: 100%;
+	height: 20%;
+	display: block;
+	z-index: 2;	
+}
+
+
+/*=======================slide_4====================*/
+.slide_4{
+	background: black;
+}
+.slide4_div1 img{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	height: 30%;
+	display: block;
+	z-index: 2;	
+}
+.slide4_div2 img{
+	position: absolute;
+	bottom: 17%;
+	left: 32%;
+	width: 35%;
+	height: 20%;
+	display: block;
+	z-index: 2;	
+	border-radius: 20%;
+}
+.slide4_div3{
+	position: absolute;
+	bottom: 10%;
+	left: 37%;
+	width: 25%;
+	height: 5%;
+	z-index: 2;
+	color: white;
+}	
+
+/*=======================slide_5====================*/
+.slide_5{background: black;}
+.slide5_div1 img{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 50%;
+	height: 50%;
+	display: block;
+	z-index: 2;
+	border-radius: 50%;	
+}
+.slide5_div2 img{	
+	position: absolute;
+	bottom: 20%;
+	left: 25%;
+	width: 70%;
+	height: 20%;
+	display: block;
+	z-index: 2;
+}
+
+/*=======================slide_6====================*/
+.slide_6{
+	background: url(../img/kenan.jpg) no-repeat center center;
+	background-size: cover;
+}
+.slide6_div1 img{
+	position: absolute;
+	top: 33%;
+	left: 22%;
+	width: 47%;
+	height: 30%;
+	display: block;
+	z-index: 2;
+	border-radius: 50%;
+}
+
+/*=======================slide_7====================*/
+.slide_7{
+	background: url(../img/qianse_bg.png) no-repeat center center;
+	background-size: cover;
+}
+.slide7_div1 img{
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 80%;
+	height: 50%;
+	display: block;
+	z-index: 3;
+	border-radius: 30%;
+}
+.slide7_div2 img{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	width: 80%;
+	height: 50%;
+	display: block;
+	z-index: 3;
+	border-radius: 30%;
+}
+.slide7_div3 img{
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	width: 80%;
+	height: 50%;
+	display: block;
+	z-index: 3;
+	border-radius: 30%;
+}
+.slide7_div4 img{
+	position: absolute;
+	top: 72%;
+	left: 10%;
+	width: 80%;
+	height: 10%;
+	display: block;
+	z-index: 3;
+}
+.slide7_div5 img{
+	position: absolute;
+	top: 83%;
+	left: 30%;
+	width: 10%;
+	height: 10%;
+	display: block;
+	z-index: 3;
+}
+.slide7_div6 img{
+	position: absolute;
+	top: 83%;
+	left: 45%;
+	width: 10%;
+	height: 10%;
+	display: block;
+	z-index: 3;
+}
+.slide7_div7 img{
+	position: absolute;
+	top: 83%;
+	left: 60%;
+	width: 10%;
+	height: 10%;
+	display: block;
+	z-index: 3;
+}
+
+/*=======================slide_8====================*/
+.slide8_div1 img{
+	position: absolute;
+	top: 7%;
+	left: 0%;
+	width: 10%;
+	height: 10%;
+	display: block;
+	z-index: 3;
+}
+.slide8_div2 img{
+	position: absolute;
+	top: 7%;
+	left: 11%;
+	width: 80%;
+	height: 13%;
+	display: block;
+	z-index: 3;
+}
+.slide8_div3 img{
+	position: absolute;
+	top: 22%;
+	left: 1%;
+	width: 98%;
+	height: 50%;
+	display: block;
+	z-index: 3;
+}
+.slide8_div4 img{
+	position: absolute;
+	top: 72%;
+	left: 10%;	
+	width: 80%;
+	height: 20%;
+	display: block;
+	z-index: 3;
+}
+
+.music{
+	position: absolute;
+	top: 2%;
+	right: 3%;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: musicanimation 2s infinite;
+	z-index: 10;
+	visibility: hidden;
+	
+}
+@-webkit-keyframes musicanimation{
+	from{}
+	to{transform: rotate(360deg);
+	-webkit-transform: rotate(360deg)}
+}
+
+.arrow{
+	position: absolute;
+	bottom: 5%;
+	width: 20%;
+	height: 8%;
+	left: 40%;
+	-webkit-animation: arrowanimation 1s infinite;
+	z-index: 10;
+}
+@-webkit-keyframes arrowanimation{
+	0%{};
+	50%{
+		bottom: 10%;
+	}
+	100%{
+		bottom: 0%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
